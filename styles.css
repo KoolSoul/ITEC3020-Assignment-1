@@ -130,8 +130,7 @@ nav ul li a {
     margin: 10px 10px 10px 30px;
     text-align: center;
     font-family: arial;
-    font-size: 15px;
-    
+    font-size: 12px;
   }
   
   .price {
@@ -156,15 +155,15 @@ nav ul li a {
   }
 
   .card2 button {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .card3 button {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .card4 button {
-    margin-top: 70px
+    margin-top: 80px
   }
 
   .card5 button {
@@ -172,10 +171,10 @@ nav ul li a {
   }
 
   .card6 button {
-    margin-top: 5px;
+    margin-top: 20px;
   }
   
-  .card1 button:hover, .card2 button:hover, .card3 button:hover, .card4 button:hover, .card5 button:hover, .card6 button:hover {
+  .card1 button:hover, .card2 button:hover, .card3 button:hover, .card4 button:hover, .card5 button:hover, .card6 button:hover, .product-container button:hover, nav button:hover {
     opacity: 0.7;
   }
 
