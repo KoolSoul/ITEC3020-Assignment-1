@@ -167,11 +167,11 @@ nav ul li a {
   }
 
   .card5 button {
-    margin-top: 5px;
+    margin-top: 25px;
   }
 
   .card6 button {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   
   .card1 button:hover, .card2 button:hover, .card3 button:hover, .card4 button:hover, .card5 button:hover, .card6 button:hover, .product-container button:hover, nav button:hover {
