@@ -149,33 +149,33 @@ nav ul li a {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-    position: relative;
   }
 
-  .card1 button{
-    top: 49px;
+  .card1 button {
+    margin-top: 50px;
   }
 
-  .card2 button{
-    top: 16px;
+  .card2 button {
+    margin-top: 20px;
   }
 
-  .card3 button{
-    top: 33px;
+  .card3 button {
+    margin-top: 40px;
   }
 
-  .card4 button{
-    top: 85px;
+  .card4 button {
+    margin-top: 70px
   }
 
-  .card5 button{
-    top: 16px;
+  .card5 button {
+    margin-top: 5px;
   }
-  .card6 button{
-    top: 16px;
+
+  .card6 button {
+    margin-top: 5px;
   }
   
-  .card button:hover, .card2 button:hover {
+  .card1 button:hover, .card2 button:hover, .card3 button:hover, .card4 button:hover, .card5 button:hover, .card6 button:hover {
     opacity: 0.7;
   }
 
