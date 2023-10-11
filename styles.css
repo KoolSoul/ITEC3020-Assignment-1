@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #0ae4f3;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background: rgb(60, 178, 178);
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background: rgb(243, 215, 243);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search-button {
+    border: none;
+    outline: 0;
+    padding: 2px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.product1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.product-info {
+
+    background: rgb(243, 215, 243);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sizes {
+    padding: 3px;
+}
+
+#add, #view, #blue, #red, #green{
+    border: none;
+    outline: 0;
+    padding: 3px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.suggested-products {
+    padding: 10px;
+
+} 
+
+.suggested-products img {
+    display: block;
+    width: 175px;
+    height: 200px;
+    padding: 10px;
+}
+
+.suggested-products p {
+    display: block;
+}
+
+.product-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card1 button, .card2 button, .card3 button, .card4 button, .card5 button, .card6 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .card1 button{
+    top: 52px;
+  }
+
+  .card2 button{
+    top: 19px;
+  }
+
+  .card3 button{
+    top: 38px;
+  }
+
+  .card4 button{
+    top: 85px;
+  }
+
+  .card5 button{
+    top: 16px;
+  }
+  .card6 button{
+    top: 16px;
+  }
+  
+  .card button:hover, .card2 button:hover {
+    opacity: 0.7;
+  }
+
+footer {
+    background: rgb(60, 178, 178);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
